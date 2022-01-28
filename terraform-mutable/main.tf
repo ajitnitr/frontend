@@ -1,5 +1,5 @@
 module "app-module" {
-  source           = "git::https://github.com/terraform-bkt2022/terraform-mutable-app-module.git"
+  source           = "git::https://github.com/ajitnitr/terraform-mutable-app-module.git"
   INSTANCE_COUNT   = var.INSTANCE_COUNT
   INSTANCE_TYPE    = var.INSTANCE_TYPE
   COMPONENT        = var.COMPONENT
